@@ -53,5 +53,5 @@ jobs:
       uses: coverallsapp/github-action@1.1.3
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        path-to-lcov: ./coverage/lcov/awesome_event.info
+        path-to-lcov: ./coverage/lcov/awesome_events_latest.lcov
         flag-name: Functional
